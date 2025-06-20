@@ -9,6 +9,8 @@ Google Scholar, and more.
 from .agent import ResearchAgent
 from .client import AzureOpenAIClient
 from .config import ResearchAgentConfig, AzureOpenAIConfig
+from .ai_agent import AIResearchAgent, ai_research
+from .intelligent_agent import IntelligentResearchAgent, quick_research
 
 __version__ = "0.1.0"
 __author__ = "Jean-Baptiste Poullet"
@@ -19,4 +21,8 @@ __all__ = [
     "AzureOpenAIClient",
     "ResearchAgentConfig",
     "AzureOpenAIConfig",
+    "AIResearchAgent",
+    "ai_research",
+    "IntelligentResearchAgent",
+    "quick_research",
 ]
